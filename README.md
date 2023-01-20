@@ -100,11 +100,22 @@ docker exec --interactive --tty broker kafka-console-consumer --bootstrap-server
 
 En Utilisant KAFKA et Stpring Cloud Streams, Créer :
 - Un Service Producer KAFKA via un Rest Controler
+```
+<img width="1279" alt="producer-restcontroller" src="https://user-images.githubusercontent.com/57734887/213746657-80aaec99-8ce4-4c4a-94e8-ccc10a82f071.png">
 
+```
 - Un Service Consumer KAFKA
-- 
+```
+<img width="1280" alt="service-consumer" src="https://user-images.githubusercontent.com/57734887/213746743-8b6def2b-a201-4a84-bbe1-dcac467adf90.png">
+
+```
 - Un Service Supplier KAFKA
-- 
+```
+<img width="1280" alt="service-supplier" src="https://user-images.githubusercontent.com/57734887/213746801-1a952611-1b73-46f1-8336-8fe1a9dd22f9.png">
+
+```
+
+
 - Un Service de Data Analytics Real Time Stream Processing avec Kaflka Streams
 - Une application Web qui permet d'afficher les résultats du Stream Data Analytics en temps réel
 
