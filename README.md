@@ -36,12 +36,12 @@ start bin\windows\kafka-server-start.bat config/server.properties
 - Tester avec Kafka-console-producer et kafka-console-consumer
 
 ``` 
-start bin\windows\kafka-console-consumer.bat --broker-list localhost:9092 --topic R4
+start bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic R2
 ```
 <img width="1280" alt="kafka-producer-consumer" src="https://user-images.githubusercontent.com/57734887/212695293-36134d2c-43bb-4bb2-a76d-419690b7d341.png">
 
 ```
-start bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic R4
+start bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic R2
 ```
 <img width="640" alt="kafka-consumer-spring" src="https://user-images.githubusercontent.com/57734887/212695345-c81f3bd6-c5ef-4e38-8f26-f764f4c86a80.png">
 
