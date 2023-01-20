@@ -1,4 +1,23 @@
 # tp-kafka
+1. 
+- Télécharger Kafka
+- Démarrer Zookeeper
+- Démarrer Kafka-server
+- Tester avec Kefka-console-producer et kafka-console-consumer
+2. Avec Docker 
+ - Créer le fichier docker-compose.yml
+ - Démarrer les conteneurs docker : zookeeper et kafka-broker
+ - Tester avec Kafka-console-producer et kafka-console-consumer
+3. 
+En Utilisant KAFKA et Stpring Cloud Streams, Créer :
+- Un Service Producer KAFKA via un Rest Controler
+- Un Service Consumer KAFKA
+- Un Service Supplier KAFKA
+- Un Service de Data Analytics Real Time Stream Processing avec Kaflka Streams
+- Une application Web qui permet d'afficher les résultats du Stream Data Analytics en temps réel
+
+
+
 - Télécharger Kafka
 - Démarrer Zookeeper
 
@@ -78,3 +97,16 @@ docker exec --interactive --tty broker kafka-console-consumer --bootstrap-server
 ```
 
 <img width="1247" alt="docker-compose-consumer" src="https://user-images.githubusercontent.com/57734887/212699502-bc259cb4-1dc0-449e-b92a-951b00e4c3dd.png">
+
+En Utilisant KAFKA et Stpring Cloud Streams, Créer :
+- Un Service Producer KAFKA via un Rest Controler
+
+- Un Service Consumer KAFKA
+- 
+- Un Service Supplier KAFKA
+- 
+- Un Service de Data Analytics Real Time Stream Processing avec Kaflka Streams
+- Une application Web qui permet d'afficher les résultats du Stream Data Analytics en temps réel
+
+ 
+
