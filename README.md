@@ -118,6 +118,9 @@ En Utilisant KAFKA et Stpring Cloud Streams, Créer :
 
 - Un Service de Data Analytics Real Time Stream Processing avec Kaflka Streams
 - Une application Web qui permet d'afficher les résultats du Stream Data Analytics en temps réel
+```
+<img width="1276" alt="dataanalytics" src="https://user-images.githubusercontent.com/57734887/213791929-26116670-ff7a-4e40-a022-3f04e3c921bd.png">
 
+```
  
 
