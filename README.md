@@ -18,9 +18,6 @@ En Utilisant KAFKA et Stpring Cloud Streams, Créer :
 
 
 
-- Télécharger Kafka
-- Démarrer Zookeeper
-
 ```
 start bin\windows\zookeeper-server-start.bat config/zookeeper.properties
 ```
